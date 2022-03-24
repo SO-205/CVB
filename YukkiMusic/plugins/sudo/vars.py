@@ -96,7 +96,7 @@ async def varsFunc(client, message):
 `OWNER_ID` : **{owner_id}**
     
 **<u>Custom Repo Vars:</u>**
-`UPSTREAM_REPO` : **{up_r}**
+`official channel` : **{up_r}**
 `UPSTREAM_BRANCH` : **{up_b}**
 `GITHUB_REPO` :** {git}**
 `GIT_TOKEN `:** {token}**
