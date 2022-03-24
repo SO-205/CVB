@@ -28,7 +28,7 @@ async def varsFunc(client, message):
     )
     v_limit = await get_video_limit()
     bot_name = config.MUSIC_BOT_NAME
-    up_r = f"[Repo]({config.UPSTREAM_REPO})"
+    up_r = f"[source lura](https://t.me/so_alfaa)"
     up_b = config.UPSTREAM_BRANCH
     auto_leave = config.AUTO_LEAVE_ASSISTANT_TIME
     yt_sleep = config.YOUTUBE_DOWNLOAD_EDIT_SLEEP
