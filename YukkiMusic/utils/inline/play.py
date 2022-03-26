@@ -21,14 +21,12 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),
         ],
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),
         ],
     ]
     return buttons
@@ -44,7 +42,6 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),       
         ],
         [
             InlineKeyboardButton(
@@ -64,7 +61,6 @@ def telegram_markup(_):
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             ),
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),
         ],
     ]
     return buttons
@@ -81,7 +77,6 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"YukkiPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),
         ],
         [
             InlineKeyboardButton(
@@ -104,7 +99,6 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 text=_["CLOSEMENU_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),
         ],
     ]
     return buttons
@@ -124,7 +118,6 @@ def slider_markup(
                 text=_["P_B_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),
         ],
         [
             InlineKeyboardButton(
@@ -135,7 +128,6 @@ def slider_markup(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {query}|{user_id}",
             ),
-            InlineKeyboardButton(f"👥 R('support_group')", url=f"https://t.me/so_alfaa"),
             InlineKeyboardButton(
                 text="❯",
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
